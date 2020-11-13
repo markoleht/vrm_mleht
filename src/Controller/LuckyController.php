@@ -1,6 +1,5 @@
 <?php
-
-
+// src/Controller/LuckyController.php
 namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
@@ -12,11 +11,11 @@ class LuckyController extends AbstractController
     /**
      * @Route("/lucky/number")
      */
-    public function number(): Response
+    public function number()
     {
         $number = random_int(0, 100);
 
-        return $this->render('number.html.twig', [
+        return $this->render('bookings/index.html.twig', [
             'number' => $number,
         ]);
     }

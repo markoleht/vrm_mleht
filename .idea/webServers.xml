@@ -2,12 +2,11 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="78f795fa-1925-46bc-94d1-6e4b62145077" name="vrm_server" url="http://192.168.18.35/">
-        <fileTransfer host="192.168.18.35" port="22" rootFolder="/var/www/html/vrm_mleht" accessType="SFTP">
+      <webServer id="45bf9b03-09ac-4d75-b6e4-45e44ceb187c" name="192.168.18.29" url="http://192.168.18.29">
+        <fileTransfer rootFolder="/var/www/html/vrm_project" accessType="SFTP" host="192.168.18.29" port="22" sshConfigId="43648a73-939b-43b1-be5d-277a3e075086" sshConfig="user@192.168.18.29:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
     </option>
